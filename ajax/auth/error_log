@@ -1,0 +1,5 @@
+[31-Dec-2024 21:41:29 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/igxwsxelxy/shopbacgau.net/hethong/config.php on line 36
+[31-Dec-2024 21:41:29 Asia/Ho_Chi_Minh] PHP Notice:  session_start(): A session had already been started - ignoring in /home/igxwsxelxy/shopbacgau.net/hethong/config.php on line 38
+[31-Dec-2024 21:41:29 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/igxwsxelxy/shopbacgau.net/hethong/config.php on line 42
+[31-Dec-2024 21:41:29 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/igxwsxelxy/shopbacgau.net/hethong/config.php on line 47
+[31-Dec-2024 21:41:29 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/igxwsxelxy/shopbacgau.net/hethong/config.php on line 52

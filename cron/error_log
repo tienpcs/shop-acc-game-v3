@@ -1,0 +1,4 @@
+[28-Nov-2024 17:12:17 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $tozpie in /home/tdichvuinfo/api.dichvu.info/cron/mbbank.php on line 3
+[28-Nov-2024 17:12:17 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/tdichvuinfo/api.dichvu.info/cron/mbbank.php on line 3
+[28-Nov-2024 17:12:21 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in /home/tdichvuinfo/api.dichvu.info/cron/mbbank.php on line 7
+[28-Nov-2024 17:12:21 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, null given in /home/tdichvuinfo/api.dichvu.info/cron/mbbank.php on line 7

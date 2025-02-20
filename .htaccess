@@ -1,0 +1,23 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R]
+# AUTH | BẢN QUYỀN TOZPIE.PW
+RewriteRule ^Auth/Logout$ /pages/logout.php [L]
+RewriteRule ^bai-viet/ve-chung-toi$ /pages/baiviet/vechungtoi.php [L]
+RewriteRule ^bai-viet/chinh-sach-ban-hang$ /pages/baiviet/chinhsachbanhang.php [L]
+RewriteRule ^bai-viet/chinh-sach-doi-tra$ /pages/baiviet/chinhsachdoitra.php [L]
+RewriteRule ^bai-viet/huong-dan-nap-tien$ /pages/baiviet/huongdannaptien.php [L]
+RewriteRule ^danh-muc-tai-khoan/([A-Za-z0-9-]+) /pages/nick/danhmuc.php?danhmuc=$1 [L]
+RewriteRule ^loai-tai-khoan/([A-Za-z0-9-]+) /pages/nick/loaitaikhoan.php?loai=$1 [L]
+RewriteRule ^dich-vu/([A-Za-z0-9-]+) /pages/nick/caythue.php?loai=$1 [L]
+RewriteRule ^tai-khoan/([A-Za-z0-9-]+) /pages/nick/muanick.php?id_acc=$1 [L]
+RewriteRule ^customer/profile$ /pages/profile/index.php [L]
+RewriteRule ^customer/transactions$ /pages/profile/lsnap.php [L]
+RewriteRule ^customer/transactions/bank$ /pages/profile/lsnapbank.php [L]
+RewriteRule ^customer/caythue$ /pages/profile/lsdon.php [L]
+RewriteRule ^customer/nicks$ /pages/profile/lsacc.php [L]
+RewriteRule ^customer/notifications$ /pages/profile/thongbao.php [L]
+
+RewriteRule ^callback-login$ /ajax/auth/callback-gg.php [L]
+#404 | BẢN QUYỀN TOZPIE.PW
+ErrorDocument 404 /index.php
